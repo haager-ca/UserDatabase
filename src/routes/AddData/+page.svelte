@@ -19,9 +19,17 @@
 						<input type="date" class="form-control" id="InputBirthday" aria-describedby="emailHelp"/>
 					</div>
                     <div class="mt-3">
-						<label for="exampleInputEmail1" class="form-label">Email address (optional)</label>
-						<input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="max.mustermann@gmail.com"/>
+						<label for="InputAdress" class="form-label">Address (optional)</label>
+						<input type="adress" class="form-control" id="InputEmail" placeholder=""/>
 					</div>
+                    <!--stadt-->
+                    <!--postleitzahl-->
+                    <!--bundesland-->
+                    <!--Land-->
+                    <!--Familienmitglieder-->
+                    <!--Beziehungen-->
+                    <!--IQ-->
+                    <!--Freunde-->
 				</div>
                 <div class="col-1"></div>
 				<div class="col-6">
