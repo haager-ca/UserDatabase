@@ -1,19 +1,34 @@
 <script>
-    import 'bootstrap/dist/css/bootstrap.min.css'
+	import { Route, Router } from 'svelte-navigator';
+	import 'bootstrap/dist/css/bootstrap.min.css';
+	import Navbar from './_components/Navbar.svelte';
+	import Home from './_pages/Home.svelte';
+	import AddData from './_pages/AddData.svelte';
+	import EditData from './_pages/EditData.svelte';
+	import DeleteData from './_pages/DeleteData.svelte';
 </script>
 
-<nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand">Datenbank</a>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-</nav>
-
-<div class="card m-3">
-    <div class="card-body">
-            <h1 class="text-center">Daten hinzufügen</h1>
-    </div>
-</div>
+<Router>
+	<main>
+		<div class="card m-3">
+			<div class="card-body">
+				<Navbar />
+				<Route path="/">
+					<Home />
+				</Route>
+				<Route path="addData">
+					<h1 class="text-center">Daten hinzufügen</h1>
+					<AddData />
+				</Route>
+				<Route path="editData">
+					<h1 class="text-center">Daten bearbeiten</h1>
+					<EditData />
+				</Route>
+				<Route path="deleteData">
+					<h1 class="text-center">Daten löschen</h1>
+					<DeleteData />
+				</Route>
+			</div>
+		</div>
+	</main>
+</Router>
