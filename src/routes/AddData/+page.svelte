@@ -20,7 +20,7 @@
 					</div>
                     <div class="mt-3">
 						<label for="InputAdress" class="form-label">Address (optional)</label>
-						<input type="adress" class="form-control" id="InputEmail" placeholder=""/>
+						<input type="adress" class="form-control" id="InputEmail" placeholder="Musterstraße 17"/>
 					</div>
                     <!--stadt-->
                     <!--postleitzahl-->
@@ -30,16 +30,18 @@
                     <!--Beziehungen-->
                     <!--IQ-->
                     <!--Freunde-->
+                    <!--Famielienstand (Reich/Arm)-->
+                    <!--Immobilien-->
 				</div>
                 <div class="col-1"></div>
 				<div class="col-6">
 					<h4 class="text-center">Beschreibung der Person (Stichpunkte)</h4>
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 140px"></textarea>
+                        <textarea class="form-control" placeholder="" id="floatingTextarea" style="height: 140px"></textarea>
                         <label for="floatingTextarea">Beschreibung</label>
                       </div>
                       <div class="form-floating">
-                        <textarea class="mt-3 form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 140px"></textarea>
+                        <textarea class="mt-3 form-control" placeholder="" id="floatingTextarea" style="height: 140px"></textarea>
                         <label for="floatingTextarea">Eigenschaften</label>
                       </div>
 				</div>
