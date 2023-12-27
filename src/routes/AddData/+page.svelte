@@ -19,7 +19,7 @@
 						<input type="date" class="form-control" id="InputBirthday" aria-describedby="emailHelp"/>
 					</div>
                     <div class="mt-3">
-						<label for="InputAdress" class="form-label">Address (optional)</label>
+						<label for="InputAdress" class="form-label">Addresse (optional)</label>
 						<input type="adress" class="form-control" id="InputEmail" placeholder="Musterstraße 17"/>
 					</div>
                     <!--stadt-->
